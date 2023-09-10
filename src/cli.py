@@ -15,4 +15,12 @@ def read_user_cli_args() -> argparse.Namespace:
         default=[],
         help="enter one or more website URLs",
     )
+    parser.add_argument(
+        "-f",
+        "--input-file",
+        metavar="FILE",
+        type=str,
+        default="",
+        help="read URLs from a file",
+    )
     return parser.parse_args()
