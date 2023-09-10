@@ -4,7 +4,7 @@ import argparse
 def read_user_cli_args() -> argparse.Namespace:
     """Handle the CLI arguments and options."""
     parser = argparse.ArgumentParser(
-        prog="rpchecker", description="check the availability of websites"
+        prog="scchecker", description="check the availability of websites"
     )
     parser.add_argument(
         "-u",

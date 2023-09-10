@@ -9,7 +9,7 @@ from src.checker import site_is_online, site_is_online_async
 
 
 def main():
-    """Run RP Checker."""
+    """Run SC Checker."""
     user_args = read_user_cli_args()
     urls = _get_websites_urls(user_args)
     if not urls:
